@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивные упражнения - Методы воспитания гражданско-патриотической ответственности</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Гражданско-патриотическая ответственность</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="methodology.html" class="nav-link">Методическая база</a></li>
+                <li><a href="exercises.html" class="nav-link active">Упражнения</a></li>
+                <li><a href="cases.html" class="nav-link">Кейсы</a></li>
+                <li><a href="feedback.html" class="nav-link">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Заголовок страницы -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Интерактивные упражнения</h1>
+            <p>Викторины для проверки знаний </p>
+        </div>
+    </section>
+
+    <!-- Основной контент -->
+    <section class="exercises-content">
+        <div class="container">
+            <!-- Раздел: Викторины -->
+            <div class="exercise-section active" id="quizzes">
+                <h2>Викторины по гражданско-патриотической ответственности</h2>
+                
+                <div class="quiz-grid">
+                    <div class="quiz-card" data-quiz="patriotism">
+                        <div class="quiz-icon">
+                            <i class="fas fa-flag"></i>
+                        </div>
+                        <h3>Патриотизм и Родина</h3>
+                        <p>Проверьте свои знания о патриотизме, истории Беларуси и государственной символике</p>
+                        <div class="quiz-info">
+                            <span><i class="fas fa-question-circle"></i> 14 вопросов</span>
+                            <span><i class="fas fa-clock"></i> 10 минут</span>
+                        </div>
+                        <button class="btn btn-primary start-quiz" data-quiz="patriotism">Начать викторину</button>
+                    </div>
+                    
+                    <div class="quiz-card" data-quiz="rights">
+                        <div class="quiz-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Права и обязанности</h3>
+                        <p>Изучите права и обязанности гражданина Республики Беларусь</p>
+                        <div class="quiz-info">
+                            <span><i class="fas fa-question-circle"></i> 12 вопросов</span>
+                            <span><i class="fas fa-clock"></i> 8 минут</span>
+                        </div>
+                        <button class="btn btn-primary start-quiz" data-quiz="rights">Начать викторину</button>
+                    </div>
+                    
+                    <div class="quiz-card" data-quiz="constitution">
+                        <div class="quiz-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Конституция РБ</h3>
+                        <p>Основные положения Конституции Республики Беларусь</p>
+                        <div class="quiz-info">
+                            <span><i class="fas fa-question-circle"></i> 20 вопросов</span>
+                            <span><i class="fas fa-clock"></i> 15 минут</span>
+                        </div>
+                        <button class="btn btn-primary start-quiz" data-quiz="constitution">Начать викторину</button>
+                    </div>
+                    
+                    <div class="quiz-card" data-quiz="history">
+                        <div class="quiz-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h3>История Беларуси</h3>
+                        <p>Важные исторические события и личности в истории Беларуси</p>
+                        <div class="quiz-info">
+                            <span><i class="fas fa-question-circle"></i> 30 вопросов</span>
+                            <span><i class="fas fa-clock"></i> 25 минут</span>
+                        </div>
+                        <button class="btn btn-primary start-quiz" data-quiz="history">Начать викторину</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальное окно для викторин -->
+            <div id="quiz-modal" class="modal">
+                <div class="modal-content quiz-modal-content">
+                    <span class="close">&times;</span>
+                    <div id="quiz-container"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> innaacuhno34@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://edu.gov.by/">Министерство образования</a></li>
+                        <li><a href="https://vospitanie.adu.by/organizatsiya-vospitaniya/metodicheskie-rekomendatsii.html">Методические материалы</a></li>
+                        <li><a href="https://edu.gov.by/molodezhnaya-politika/glavnoe-upravlenie-vospitatelnoy-raboty-i-molodezhnoy-politiki/upravlenie-raboty/normativnye-pravovye-akty/">Нормативные документы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="https://dobrin.schools.by/?ysclid=mgizyxi8ct954193685">S</a>
+                        <a href="https://vk.com/dobrin_schools?ysclid=mgizz2n1bz619379606"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me/s/dobrinschools/"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="exercises.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Методические кейсы - Методы воспитания гражданско-патриотической ответственности</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>Гражданско-патриотическая ответственность</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Главная</a></li>
+                <li><a href="methodology.html" class="nav-link">Методическая база</a></li>
+                <li><a href="exercises.html" class="nav-link">Упражнения</a></li>
+                <li><a href="cases.html" class="nav-link active">Кейсы</a></li>
+                <li><a href="feedback.html" class="nav-link">Обратная связь</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Заголовок страницы -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Методические кейсы</h1>
+            <p>Готовые сценарии мероприятий и советы для классных руководителей</p>
+        </div>
+    </section>
+
+    <!-- Основной контент -->
+    <section class="cases-content">
+        <div class="container">
+            <!-- Фильтры -->
+            <div class="cases-filters">
+                <button class="filter-btn active" data-filter="all">Все кейсы</button>
+                <button class="filter-btn" data-filter="classroom">Классные часы</button>
+                <button class="filter-btn" data-filter="events">Мероприятия</button>
+                <button class="filter-btn" data-filter="projects">Проекты</button>
+                <button class="filter-btn" data-filter="age-5-7">5-7 классы</button>
+                <button class="filter-btn" data-filter="age-8-11">8-11 классы</button>
+            </div>
+
+            <!-- Кейсы -->
+            <div class="cases-grid">
+                <!-- Кейс 1: Классный час "Я - гражданин Беларуси" -->
+                <div class="case-card" data-category="classroom age-5-7">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Классный час</span>
+                            <span class="case-age">5-7 классы</span>
+                            <span class="case-duration">45 минут</span>
+                        </div>
+                    </div>
+                    <h3>Я - гражданин Беларуси</h3>
+                    <p>Формирование гражданско-патриотической идентичности у учащихся среднего звена через изучение государственной символики и истории страны.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Формирование патриотических чувств</li>
+                            <li>Изучение государственной символики</li>
+                            <li>Развитие гражданско-патриотической ответственности</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Государственный флаг и герб Беларуси</li>
+                            <li>Презентация "Символы государства"</li>
+                            <li>Видеоролик о Беларуси</li>
+                            <li>Рабочие листы для учащихся</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Ход мероприятия:</h4>
+                        <ol>
+                            <li>Организационный момент (5 мин)</li>
+                            <li>Беседа о Родине (10 мин)</li>
+                            <li>Изучение символики (15 мин)</li>
+                            <li>Интерактивная игра (10 мин)</li>
+                            <li>Рефлексия (5 мин)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case1')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case1')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Кейс 2: Проект "Память поколений" -->
+                <div class="case-card" data-category="projects age-8-11">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Проект</span>
+                            <span class="case-age">8-11 классы</span>
+                            <span class="case-duration">1 месяц</span>
+                        </div>
+                    </div>
+                    <h3>Память поколений</h3>
+                    <p>Социальный проект по сохранению памяти о ветеранах Великой Отечественной войны и тружениках тыла.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Сохранение исторической памяти</li>
+                            <li>Воспитание уважения к ветеранам</li>
+                            <li>Развитие исследовательских навыков</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Анкеты для интервью</li>
+                            <li>Фотоаппарат/видеокамера</li>
+                            <li>Материалы для оформления</li>
+                            <li>Шаблоны презентаций</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Этапы проекта:</h4>
+                        <ol>
+                            <li>Планирование и подготовка (1 неделя)</li>
+                            <li>Сбор информации (2 недели)</li>
+                            <li>Обработка данных (1 неделя)</li>
+                            <li>Презентация результатов</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case2')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case2')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Кейс 3: Мероприятие "День Конституции" -->
+                <div class="case-card" data-category="events age-8-11">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Мероприятие</span>
+                            <span class="case-age">8-11 классы</span>
+                            <span class="case-duration">2 часа</span>
+                        </div>
+                    </div>
+                    <h3>День Конституции Республики Беларусь</h3>
+                    <p>Торжественное мероприятие, посвященное изучению основного закона страны и формированию правовой культуры.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Изучение Конституции РБ</li>
+                            <li>Формирование правовой культуры</li>
+                            <li>Воспитание уважения к закону</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Текст Конституции РБ</li>
+                            <li>Презентация о правах и обязанностях</li>
+                            <li>Викторина по Конституции</li>
+                            <li>Государственная символика</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Программа мероприятия:</h4>
+                        <ol>
+                            <li>Торжественная линейка (30 мин)</li>
+                            <li>Лекция о Конституции (45 мин)</li>
+                            <li>Викторина (30 мин)</li>
+                            <li>Подведение итогов (15 мин)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case3')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case3')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Кейс 4: Классный час "Права и обязанности школьника" -->
+                <div class="case-card" data-category="classroom age-5-7">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Классный час</span>
+                            <span class="case-age">5-7 классы</span>
+                            <span class="case-duration">40 минут</span>
+                        </div>
+                    </div>
+                    <h3>Права и обязанности школьника</h3>
+                    <p>Правовое просвещение учащихся через изучение их прав и обязанностей в школе и обществе.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Изучение прав школьника</li>
+                            <li>Формирование ответственности</li>
+                            <li>Развитие правовой культуры</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Устав школы</li>
+                            <li>Презентация о правах</li>
+                            <li>Ситуационные задачи</li>
+                            <li>Рабочие тетради</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Ход мероприятия:</h4>
+                        <ol>
+                            <li>Вводная беседа (5 мин)</li>
+                            <li>Изучение прав (15 мин)</li>
+                            <li>Обсуждение обязанностей (15 мин)</li>
+                            <li>Решение ситуаций (5 мин)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case4')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case4')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Кейс 5: Проект "Школьный двор - территория добра" -->
+                <div class="case-card" data-category="projects age-5-7">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Проект</span>
+                            <span class="case-age">5-7 классы</span>
+                            <span class="case-duration">2 недели</span>
+                        </div>
+                    </div>
+                    <h3>Школьный двор - территория добра</h3>
+                    <p>Экологический проект по благоустройству школьной территории и формированию экологической ответственности.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Благоустройство территории</li>
+                            <li>Формирование экологической культуры</li>
+                            <li>Развитие трудовых навыков</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Садовый инвентарь</li>
+                            <li>Семена и саженцы</li>
+                            <li>Краски для оформления</li>
+                            <li>Фотоаппарат</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Этапы проекта:</h4>
+                        <ol>
+                            <li>Планирование работ (2 дня)</li>
+                            <li>Подготовка территории (3 дня)</li>
+                            <li>Посадка растений (5 дней)</li>
+                            <li>Оформление и презентация (4 дня)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case5')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case5')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Кейс 6: Мероприятие "Встреча с ветеранами" -->
+                <div class="case-card" data-category="events age-8-11">
+                    <div class="case-header">
+                        <div class="case-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="case-meta">
+                            <span class="case-category">Мероприятие</span>
+                            <span class="case-age">8-11 классы</span>
+                            <span class="case-duration">1.5 часа</span>
+                        </div>
+                    </div>
+                    <h3>Встреча с ветеранами</h3>
+                    <p>Воспитательное мероприятие, направленное на сохранение памяти о Великой Отечественной войне и воспитание патриотизма.</p>
+                    
+                    <div class="case-objectives">
+                        <h4>Цели:</h4>
+                        <ul>
+                            <li>Сохранение исторической памяти</li>
+                            <li>Воспитание уважения к ветеранам</li>
+                            <li>Формирование патриотических чувств</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-materials">
+                        <h4>Материалы:</h4>
+                        <ul>
+                            <li>Фото и документы военных лет</li>
+                            <li>Цветы для ветеранов</li>
+                            <li>Презентация о войне</li>
+                            <li>Музыкальное сопровождение</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="case-steps">
+                        <h4>Программа мероприятия:</h4>
+                        <ol>
+                            <li>Встреча ветеранов (15 мин)</li>
+                            <li>Выступления учащихся (30 мин)</li>
+                            <li>Рассказы ветеранов (45 мин)</li>
+                            <li>Вручение подарков (15 мин)</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="case-actions">
+                        <button class="btn btn-primary" onclick="openCaseModal('case6')">Подробнее</button>
+                        <button class="btn btn-secondary" onclick="downloadCase('case6')">
+                            <i class="fas fa-download"></i> Скачать
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Советы для классных руководителей -->
+            <div class="tips-section">
+                <h2>Советы для классных руководителей</h2>
+                <div class="tips-grid">
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Планирование работы</h3>
+                        <ul>
+                            <li>Составляйте план воспитательной работы на год</li>
+                            <li>Учитывайте возрастные особенности учащихся</li>
+                            <li>Включайте разнообразные формы работы</li>
+                            <li>Планируйте совместную работу с родителями</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Работа с коллективом</h3>
+                        <ul>
+                            <li>Создавайте атмосферу доверия и взаимопонимания</li>
+                            <li>Поощряйте инициативу учащихся</li>
+                            <li>Развивайте самоуправление в классе</li>
+                            <li>Организуйте совместные дела</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Воспитание патриотизма</h3>
+                        <ul>
+                            <li>Используйте местный материал</li>
+                            <li>Организуйте встречи с интересными людьми</li>
+                            <li>Проводите экскурсии по историческим местам</li>
+                            <li>Участвуйте в патриотических акциях</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tip-card">
+                        <div class="tip-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Оценка результатов</h3>
+                        <ul>
+                            <li>Ведите дневник наблюдений</li>
+                            <li>Проводите анкетирование учащихся</li>
+                            <li>Анализируйте участие в мероприятиях</li>
+                            <li>Получайте обратную связь от родителей</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно для детального просмотра кейса -->
+    <div id="case-modal" class="modal">
+        <div class="modal-content case-modal-content">
+            <span class="close">&times;</span>
+            <div id="case-details"></div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i>innaacuhno34@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Полезные ссылки</h3>
+                    <ul>
+                        <li><a href="https://edu.gov.by/">Министерство образования</a></li>
+                        <li><a href="https://vospitanie.adu.by/organizatsiya-vospitaniya/metodicheskie-rekomendatsii.html">Методические материалы</a></li>
+                        <li><a href="https://edu.gov.by/molodezhnaya-politika/glavnoe-upravlenie-vospitatelnoy-raboty-i-molodezhnoy-politiki/upravlenie-raboty/normativnye-pravovye-akty/">Нормативные документы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Социальные сети</h3>
+                    <div class="social-links">
+                        <a href="https://dobrin.schools.by/?ysclid=mgizyxi8ct954193685">S</a>
+                        <a href="https://vk.com/dobrin_schools?ysclid=mgizz2n1bz619379606"><i class="fab fa-vk"></i></a>
+                        <a href="https://t.me/s/dobrinschools/"><i class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cases.js"></script>
+</body>
+</html>
